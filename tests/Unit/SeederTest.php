@@ -16,7 +16,7 @@ class SeederTest extends TestCase
 
     public function testLinksTable()
     {
-        $this->assertDatabaseHas('links', ['title' => 'dotdev.co']);
+        $this->assertDatabaseHas('links', ['url' => 'http://kunde.com/non-vitae-ipsam-voluptates-sit-aliquam-sed.html']);
 
     }
 }
